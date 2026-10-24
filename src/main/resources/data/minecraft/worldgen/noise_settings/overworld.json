@@ -19,16 +19,13 @@
   },
   "noise_router": {
     "barrier": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_barrier",
-      "xz_scale": 1.0,
-      "y_scale": 0.5
+      "type": "template-mod:custom_terrain_gen"
     },
     "continents": "minecraft:overworld/continents",
     "depth": "minecraft:overworld/depth",
     "erosion": "minecraft:overworld/erosion",
     "final_density": {
-      "type": "template-mod:sine_terrain"
+      "type": "template-mod:custom_terrain_gen"
     },
     "fluid_level_floodedness": {
       "type": "minecraft:noise",

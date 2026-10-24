@@ -10,8 +10,8 @@ public class CustomTerrainGen implements DensityFunction.SimpleFunction {
     public static final KeyDispatchDataCodec<CustomTerrainGen> CODEC = KeyDispatchDataCodec.of(MapCodec.unit(INSTANCE));
 
     public static final double BASE_HEIGHT = 64;  // average ground level
-    public static final double AMPLITUDE   = 1;  // how far the hills go up/down
-    public static final double WAVELENGTH  = 1;  // how wide the hills are
+    public static final double AMPLITUDE   = 24;  // how far the hills go up/down
+    public static final double WAVELENGTH  = 40;  // how wide the hills are
 
     // The wave formula: ground height at a given x/z
     public static double groundHeight(double x, double z) {
